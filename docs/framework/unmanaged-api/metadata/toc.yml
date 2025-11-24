@@ -1,0 +1,108 @@
+items:
+- name: Metadata
+  href: index.md
+- name: Metadata Interfaces
+  href: metadata-interfaces.md
+  items:
+  - name: ICeeGen Interface
+    href: iceegen-interface.md
+    items:
+    - name: AddSectionReloc Method
+      href: iceegen-addsectionreloc-method.md
+    - name: AllocateMethodBuffer Method
+      href: iceegen-allocatemethodbuffer-method.md
+    - name: ComputePointer Method
+      href: iceegen-computepointer-method.md
+    - name: EmitString Method
+      href: iceegen-emitstring-method.md
+    - name: GenerateCeeFile Method
+      href: iceegen-generateceefile-method.md
+    - name: GenerateCeeMemoryImage Method
+      href: iceegen-generateceememoryimage-method.md
+    - name: GetIlSection Method
+      href: iceegen-getilsection-method.md
+    - name: GetIMapTokenIface Method
+      href: iceegen-getimaptokeniface-method.md
+    - name: GetMethodBuffer Method
+      href: iceegen-getmethodbuffer-method.md
+    - name: GetSectionBlock Method
+      href: iceegen-getsectionblock-method.md
+    - name: GetSectionCreate Method
+      href: iceegen-getsectioncreate-method.md
+    - name: GetSectionDataLen Method
+      href: iceegen-getsectiondatalen-method.md
+    - name: GetString Method
+      href: iceegen-getstring-method.md
+    - name: GetStringSection Method
+      href: iceegen-getstringsection-method.md
+    - name: TruncateSection Method
+      href: iceegen-truncatesection-method.md
+  - name: IHostFilter Interface
+    href: ihostfilter-interface.md
+    items:
+    - name: MarkToken Method
+      href: ihostfilter-marktoken-method.md
+    - name: IMetaDataConverter interface
+      href: imetadataconverter-interface.md
+      items:
+      - name: GetMetaDataFromTypeInfo method
+        href: imetadataconverter-getmetadatafromtypeinfo-method.md
+      - name: GetMetaDataFromTypeLib method
+        href: imetadataconverter-getmetadatafromtypelib-method.md
+      - name: GetTypeLibFromMetaData method
+        href: imetadataconverter-gettypelibfrommetadata-method.md
+- name: Metadata Global Static Functions
+  href: metadata-global-static-functions.md
+- name: Metadata Enumerations
+  href: metadata-enumerations.md
+  items:
+  - name: AssemblyFlags Enumeration
+    href: assemblyflags-enumeration.md
+  - name: CeeSectionAttr Enumeration
+    href: ceesectionattr-enumeration.md
+  - name: CeeSectionRelocType Enumeration
+    href: ceesectionreloctype-enumeration.md
+  - name: COINITICOR Enumeration
+    href: coiniticor-enumeration.md
+  - name: COINITIEE Enumeration
+    href: coinitiee-enumeration.md
+  - name: CorArgType Enumeration
+    href: corargtype-enumeration.md
+  - name: CorAttributeTargets Enumeration
+    href: corattributetargets-enumeration.md
+  - name: CorCallingConvention Enumeration
+    href: corcallingconvention-enumeration.md
+  - name: CorEventAttr Enumeration
+    href: coreventattr-enumeration.md
+  - name: CorFieldAttr Enumeration
+    href: corfieldattr-enumeration.md
+  - name: CorNativeLinkFlags Enumeration
+    href: cornativelinkflags-enumeration.md
+  - name: CorNativeLinkType Enumeration
+    href: cornativelinktype-enumeration.md
+  - name: CorNativeType Enumeration
+    href: cornativetype-enumeration.md
+  - name: CorParamAttr Enumeration
+    href: corparamattr-enumeration.md
+  - name: CorRegFlags Enumeration
+    href: corregflags-enumeration.md
+  - name: CorSerializationType Enumeration
+    href: corserializationtype-enumeration.md
+  - name: CorTokenType Enumeration
+    href: cortokentype-enumeration.md
+  - name: CorUnmanagedCallingConvention Enumeration
+    href: corunmanagedcallingconvention-enumeration.md
+  - name: COUNINITIEE Enumeration
+    href: couninitiee-enumeration.md
+- name: Metadata Structures
+  href: metadata-structures.md
+  items:
+  - name: COR_NATIVE_LINK Structure
+    href: cor-native-link-structure.md
+  - name: CVStruct Structure
+    href: cvstruct-structure.md
+- name: Metadata Unions
+  href: metadata-unions.md
+  items:
+  - name: CeeSectionRelocExtra Union
+    href: ceesectionrelocextra-union.md

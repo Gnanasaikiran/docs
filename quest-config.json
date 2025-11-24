@@ -1,0 +1,26 @@
+{
+    "AzureDevOps": {
+        "Org": "msft-skilling",
+        "Project": "Content",
+        "AreaPath": "Production\\Core AI\\DotNet and more\\dotnet"
+    },
+    "ImportTriggerLabel": ":world_map: reQUEST",
+    "ImportedLabel": ":pushpin: seQUESTered",
+    "ParentNodes": [
+        {
+            "Label": "dotnet-csharp/svc",
+            "ParentNodeId": 410745
+        }
+    ],
+    "DefaultParentNode": 410746,
+    "WorkItemTags": [
+        {
+            "Label": ":checkered_flag: Release: .NET 10",
+            "Tag": "new-feature"
+        },
+        {
+            "Label": "okr-curation",
+            "Tag": "content-curation"
+        }
+    ]
+}
